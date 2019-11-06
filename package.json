@@ -1,4 +1,4 @@
-{
+{ "homepage":"https://raniaw.github.io/react-redux-increment",
   "name": "increment-react",
   "version": "0.1.0",
   "private": true,
@@ -29,5 +29,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^2.1.1"
   }
 }

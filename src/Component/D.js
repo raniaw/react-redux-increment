@@ -1,13 +1,13 @@
 import React, { Component } from 'react'
 import { connect } from 'react-redux'
 
-class A extends Component {
+class D extends Component {
     render() {
         return (
             <div>
-                A, x = {this.props.x} 
+                D, w = {this.props.w} 
                 <br></br>
-                <button onClick={this.props.incrementX}>Increment X</button>
+                <button onClick={this.props.incrementW}>Increment ODD from x</button>
             </div>
         )
     }
@@ -16,15 +16,15 @@ class A extends Component {
 //redux specific mappers
 
 const mapStateToProps = (state) => ({
-  x:state.x
+  w:state.w
 });
 
 const mapDispatchToProps=(dispatch) =>({
-    incrementX:()=>dispatch({
-        type:'INCREMENT_X'
+    incrementW:()=>dispatch({
+        type:'INCREMENT_W'
     })
 })
 
 //export
-export default connect(mapStateToProps, mapDispatchToProps)(A)
+export default connect(mapStateToProps, mapDispatchToProps)(D)
 
