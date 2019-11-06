@@ -1,12 +1,30 @@
 import React, { Component } from 'react'
+import { connect } from 'react-redux'
 
-export default class A extends Component {
+class A extends Component {
     render() {
         return (
             <div>
-                hi, I'm 'A-Component', x={this.props.x}
+                A, x={this.props.x} 
+                <br></br>
                 <button onClick={this.props.incrementX}>Increment X</button>
             </div>
         )
     }
 }
+
+//redux specific mappers
+
+const mapStateToProps = (state) => ({
+  x:state.x
+});
+
+const mapDispatchToProps=(dispatch) =>({
+    incrementX:()=>dispatch({
+        type:'INCREMENT_X'
+    })
+})
+
+//export
+export default connect(mapStateToProps, mapDispatchToProps)(A)
+
