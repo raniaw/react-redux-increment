@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/react-redux-increment/static/css/main.b2bed162.chunk.css",
+    "main.js": "/react-redux-increment/static/js/main.05f2fab5.chunk.js",
+    "main.js.map": "/react-redux-increment/static/js/main.05f2fab5.chunk.js.map",
+    "runtime-main.js": "/react-redux-increment/static/js/runtime-main.7e45ab89.js",
+    "runtime-main.js.map": "/react-redux-increment/static/js/runtime-main.7e45ab89.js.map",
+    "static/js/2.026e5556.chunk.js": "/react-redux-increment/static/js/2.026e5556.chunk.js",
+    "static/js/2.026e5556.chunk.js.map": "/react-redux-increment/static/js/2.026e5556.chunk.js.map",
+    "index.html": "/react-redux-increment/index.html",
+    "precache-manifest.26f0b762760225bfb7dd0cd93ca768df.js": "/react-redux-increment/precache-manifest.26f0b762760225bfb7dd0cd93ca768df.js",
+    "service-worker.js": "/react-redux-increment/service-worker.js",
+    "static/css/main.b2bed162.chunk.css.map": "/react-redux-increment/static/css/main.b2bed162.chunk.css.map"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.7e45ab89.js",
+    "static/js/2.026e5556.chunk.js",
+    "static/css/main.b2bed162.chunk.css",
+    "static/js/main.05f2fab5.chunk.js"
+  ]
+}
